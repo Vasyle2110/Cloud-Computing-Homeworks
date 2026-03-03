@@ -1,0 +1,29 @@
+{
+  "tasks": [
+    {
+      "id": 3,
+      "title": "Tema REST_API",
+      "description": "Al treilea test cu GET din POSTMAN",
+      "status": "done",
+      "created_at": "2026-03-02T23:35:46Z",
+      "updated_at": "2026-03-02T23:41:56Z"
+    },
+    {
+      "id": 5,
+      "title": "Task 55555",
+      "description": "Am schimbat descrierea",
+      "status": "open",
+      "created_at": "2026-03-03T06:38:39Z",
+      "updated_at": "2026-03-03T09:18:00Z"
+    },
+    {
+      "id": 6,
+      "title": "TASK 6",
+      "description": "",
+      "status": "open",
+      "created_at": "2026-03-03T09:08:58Z",
+      "updated_at": "2026-03-03T09:08:58Z"
+    }
+  ],
+  "next_id": 7
+}
