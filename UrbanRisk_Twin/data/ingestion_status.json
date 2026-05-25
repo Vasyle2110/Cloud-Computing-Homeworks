@@ -1,0 +1,36 @@
+{
+  "status": "completed",
+  "updated_at": "2026-05-25T21:58:53.218178+00:00",
+  "zones_total": 12,
+  "zones_updated": 12,
+  "errors_count": 0,
+  "errors": [],
+  "sources": [
+    "Open-Meteo Forecast API",
+    "Open-Meteo Air Quality API",
+    "Local urban baseline"
+  ],
+  "cloud_persistence": {
+    "firestore": {
+      "zones": {
+        "status": "saved",
+        "target": "firestore",
+        "collection": "urban_risk_zones",
+        "count": 12
+      },
+      "status": {
+        "status": "saved",
+        "target": "firestore",
+        "collection": "urban_risk_metadata",
+        "document": "latest_ingestion"
+      }
+    },
+    "cloud_storage": {
+      "status": "uploaded",
+      "target": "cloud_storage",
+      "bucket": "urbanrisk-twin-powerful-decker-477422-h1",
+      "object": "urbanrisk-twin/live-zones/iasi_zones_live_20260525T215903Z.json",
+      "count": 12
+    }
+  }
+}
